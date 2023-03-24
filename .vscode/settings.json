@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "out": false // set this to true to hide the "out" folder with the compiled JS files
+    },
+    "search.exclude": {
+        "out": true // set this to false to include "out" folder in search results
+    },
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "marklogic.port": 8055,
+    "marklogic.rejectUnauthorized": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "marklogic.managePort": 8002,
+    "marklogic.modulesDb": "mlxprsSample-modules",
+    "marklogic.authType": "DIGEST",
+    "marklogic.host": "localhost",
+    "marklogic.modulesRoot": "/",
+    "marklogic.documentsDb": "mlxprsSample-content",
+    "marklogic.password": "admin",
+    "marklogic.username": "admin"
+}
