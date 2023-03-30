@@ -10,7 +10,7 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "marklogic.port": 8056,
+    "marklogic.port": 8055,
     "marklogic.rejectUnauthorized": false,
     "java.configuration.updateBuildConfiguration": "automatic",
     "marklogic.managePort": 8002,
