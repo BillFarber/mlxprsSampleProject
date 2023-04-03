@@ -1,1 +1,3 @@
-select * from Medical.Authors;
+select * from Medical.Authors
+  where LastName = 'Golby'
+  
