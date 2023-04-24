@@ -3,7 +3,7 @@ xquery version "1.0-ml";
 
 import module namespace hw = "helloworld" at "/xquery/library.xqy";
 
-
+let $_ := xdmp:log("running launch.xqy")
 let $response :=
     let $response := 
     
@@ -16,4 +16,10 @@ let $response :=
 
                                                 
                                             )
-return $response
+return (
+    <a>A</a>
+    ,
+    $response
+    ,
+    xdmp:log("finished launch.xqy")
+)

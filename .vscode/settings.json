@@ -10,15 +10,20 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "marklogic.port": 8055,
+    "marklogic.port": 8056,
     "marklogic.rejectUnauthorized": false,
     "java.configuration.updateBuildConfiguration": "automatic",
     "marklogic.managePort": 8002,
     "marklogic.modulesDb": "mlxprsSample-modules",
     "marklogic.authType": "DIGEST",
-    "marklogic.host": "localhost",
+    "marklogic.host": "macpro-6191.marklogic.com",
     "marklogic.modulesRoot": "/",
     "marklogic.documentsDb": "mlxprsSample-content",
     "marklogic.password": "admin",
-    "marklogic.username": "admin"
+    "marklogic.username": "admin",
+    "marklogic.sparqlContentType": "text/csv",
+    "marklogic.sql.results": "array",
+    "marklogic.resultsInEditorTab": false,
+    "marklogic.ssl": false,
+    "marklogic.pathToCa": ""
 }

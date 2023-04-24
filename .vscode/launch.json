@@ -7,7 +7,15 @@
         {
             "type": "ml-jsdebugger",
             "request": "launch",
-            "name": "Evaluate Current JavaScript Module"
+            "name": "Evaluate Current JavaScript Module",
+            "root": "${workspaceFolder}/src/main/ml-modules/root"
+        },
+        {
+            "type": "ml-jsdebugger",
+            "request": "launch",
+            "name": "Evaluate Specific JavaScript Module",
+            "root": "${workspaceFolder}/src/main/ml-modules/root",
+            "program": "/Users/pbarber/Documents/workspaces/engineering/mlxprsStuff/mlxprsSampleProject/src/main/ml-modules/root/javascript/launch.sjs"
         },
         {
             "type": "ml-jsdebugger",
@@ -15,7 +23,7 @@
             "name": "Attach to Remote JavaScript Request",
             "root": "${workspaceFolder}",
             "debugServerName": "mlxprsSample",
-            "debugServer": 4711
+            // "debugServer": 4711
         },
         {
             "type": "xquery-ml",
@@ -25,10 +33,17 @@
         },
         {
             "type": "xquery-ml",
+            "request": "launch",
+            "name": "Evaluate Specific XQuery Module",
+            "root": "${workspaceFolder}/src/main/ml-modules/root",
+            "program": "/Users/pbarber/Documents/workspaces/engineering/mlxprsStuff/mlxprsSampleProject/src/main/ml-modules/root/xquery/launch.xqy"
+        },
+        {
+            "type": "xquery-ml",
             "request": "attach",
             "name": "Attach to Remote XQuery Request",
             "root": "${workspaceFolder}/src/main/ml-modules/root",
-            "debugServer": 4712
+            // "debugServer": 4712
         }
     ]
 }

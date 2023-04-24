@@ -1,6 +1,6 @@
 'use strict'
 
-import { collections } from '/MarkLogic/jsearch'
+const { collections } = require('/MarkLogic/jsearch')
 
 const results = collections('sample').documents().result()
 console.debug('resultsAAAA')
