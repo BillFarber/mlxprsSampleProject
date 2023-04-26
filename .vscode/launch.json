@@ -36,7 +36,7 @@
             "request": "launch",
             "name": "Evaluate Specific XQuery Module",
             "root": "${workspaceFolder}/src/main/ml-modules/root",
-            "program": "/Users/pbarber/Documents/workspaces/engineering/mlxprsStuff/mlxprsSampleProject/src/main/ml-modules/root/xquery/launch.xqy"
+            "program": "/Users/pbarber/Documents/workspaces/engineering/mlxprsStuff/mlxprsSampleProject/src/main/ml-modules/root/xquery/longTest.xqy"
         },
         {
             "type": "xquery-ml",
